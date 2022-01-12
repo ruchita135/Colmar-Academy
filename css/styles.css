@@ -2,3 +2,69 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --primary-color: #4a4a4a;
+    --bg-light: #eaebec;
+    --bg-dark: #d8d8d8;
+    --white: #ffffff;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+h5 {
+    line-height: 30px!important;
+    margin-bottom: 24px;
+}
+
+nav {
+    height: 64px;
+    padding: 0px 24px;
+}
+
+button {
+    width: 100%;
+    padding: 8px 0px;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.nav-mobile ul {
+    padding: 8px;;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner {
+    width: 100%;
+    background-color: var(--bg-dark);
+    color: var(--primary-color);
+    padding: 32px 12px;
+}
+
+.banner-right-col {
+    padding-left: 16px;
+    max-width: 75%;
+    margin: 32px 0px;
+}
+
+.section-1 {
+    width: 100%;
+    color: var(--primary-color);
+    padding: 32px 12px;
+}
+@media only screen and (max-width: 576px) {
+    .banner {
+        padding: 0px;
+    }
+    .row>* {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  } 
